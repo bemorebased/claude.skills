@@ -155,7 +155,7 @@ Pairs well with:
 
 ## Implementation
 
-Uses `/Users/sheshe/aiktualno/lib/utils/aiQualityAnalyzer.ts`
+Uses `lib/utils/aiQualityAnalyzer.ts`
 
 The AIQualityAnalyzer class analyzes articles from the database, groups by provider/category/mode, and generates comprehensive performance reports.
 

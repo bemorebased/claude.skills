@@ -78,6 +78,6 @@ Run with --report to export full CSV
 
 ## Implementation
 
-Uses `/Users/sheshe/aiktualno/lib/utils/promptLeakageDetector.ts`
+Uses `lib/utils/promptLeakageDetector.ts`
 
 The PromptLeakageDetector class scans articles using regex patterns and categorizes leakage by location and severity.

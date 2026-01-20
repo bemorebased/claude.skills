@@ -105,9 +105,9 @@ Run with --report to export full CSV
 
 ## Implementation
 
-Uses `/Users/sheshe/aiktualno/lib/utils/placeholderImageDetector.ts`
+Uses `lib/utils/placeholderImageDetector.ts`
 
-The PlaceholderImageDetector class extends the logic from `services/orchestrator/pipeline.ts` isPlaceholderImage() method (lines 804-896) with database scanning and reporting capabilities.
+The PlaceholderImageDetector class extends the logic from `services/orchestrator/pipeline.ts` isPlaceholderImage() method with database scanning and reporting capabilities.
 
 ## Related Scripts
 
