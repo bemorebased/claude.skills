@@ -238,7 +238,7 @@ export async function sendNewsletter(
 ) {
   await sendgrid.send({
     to: subscribers,
-    from: 'newsletter@bAIpress.bg',
+    from: 'newsletter@example.com', // Configure with your domain
     subject,
     html: template,
     trackingSettings: {

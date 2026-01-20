@@ -161,21 +161,21 @@ async function generateOGImage(article) {
   "dateModified": "{{article.updatedAt}}",
   "author": {
     "@type": "Organization",
-    "name": "AI-ктуално",
-    "url": "https://bAIpress.bg"
+    "name": "{{site.name}}",
+    "url": "{{site.url}}"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AI-ктуално",
+    "name": "{{site.name}}",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://bAIpress.bg/logo.png"
+      "url": "{{site.url}}/logo.png"
     }
   },
   "description": "{{article.summary}}",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bAIpress.bg/{{article.slug}}"
+    "@id": "{{site.url}}/{{article.slug}}"
   }
 }
 ```

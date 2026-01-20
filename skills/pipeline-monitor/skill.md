@@ -201,7 +201,7 @@ Pairs well with:
 
 ## Implementation
 
-Uses `/Users/sheshe/aiktualno/lib/utils/pipelineHealthMonitor.ts`
+Uses `lib/utils/pipelineHealthMonitor.ts`
 
 The PipelineHealthMonitor class analyzes pipeline execution data, groups errors by type, calculates performance metrics, and generates actionable health reports.
 

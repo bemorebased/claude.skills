@@ -1,0 +1,49 @@
+# Sensitive Data Protection
+*.env
+*.env.*
+!*.env.example
+.env.local
+.env.production
+.env.development
+
+# Credentials and Secrets
+**/credentials.json
+**/secrets.json
+**/*secret*
+**/*password*
+**/*token*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# API Keys
+**/api-keys.json
+**/config/secrets/
+
+# Personal Information
+**/personal/
+**/private/
+
+# Development
+.DS_Store
+node_modules/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
